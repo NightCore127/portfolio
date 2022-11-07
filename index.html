@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5910592c95.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header"  >
+      <div class="container">
+          <nav>
+
+            <img src="images/logo.png.jpeg"  class="logo" style="width:200px;height:200px;">
+             <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark close"   onclick="closemenu()"></i>
+             </ul>
+<div>                <h3 class="menu-bar">Menu</h3>
+    <i class="fa-solid fa-bars" onclick="openmenu()"></i></div>
+
+            
+        </nav>
+         <div class="head-text">
+            <p>Student</p>
+            <h3>Assalamu Alaikum, This is Mariam.</h3>
+            
+          
+         </div>
+      </div>
+  </div>
+  <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png.jpg" style="width:280px;height:310px";>
+            
+            </div>
+            <div class="about-col-2">
+                <h3 class="sub-tittle">About Me</h3>
+                <p> My name is Mariam.I am from Computer Science and Engneering Department.
+                    I am accuring knowledge about  python programming language,Maching Learning,Artificial Inteligence.I am interested 
+                    in Research.And I want to be a Researcher.
+                </p>
+                <div class="tab-tittles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')" >Education</p>
+                    
+
+                </div>
+               <div class="tab-contents active-tab" id="skills">
+                   <ul>
+                       <li><span>Learning</span><br>Programming Languages</li>
+                       <li><span>Python</span><br>Practicing</li>
+                       <li><span>Machine Learning</span><br>Some prediction based Project</li>
+                       <li><span>Artificial Inteligence</span><br>Basic Knowledge</li>
+                   </ul>
+
+               </div>
+               <div class="tab-contents " id="experience">
+                <ul>
+                    <li><span>Year : 2022 to Still</span><br>Student/li>
+                    <li><span>Year : 2021</span><br>Starting to Learning Python</li>
+                    <li><span>Year : 2021</span><br>Starting to Learning Machine Learning</li>
+                    
+                </ul>
+
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2022</span><br>4th Year Student of DIU</li>
+                    
+                </ul>
+
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+   </div>
+
+ </div>
+ <div id="services">
+     <div class="container">
+        <h3 class="sub-tittle">Services</h3>  
+      <div class =  "services-list">
+          <div>
+            <i class="fa-brands fa-python"></i>
+            <h4>Python Programming</h4>
+              <p>Python is a high-level, general-purpose programming language. 
+                  Its design philosophy emphasizes code readability with the use of significant indentation</p>
+                  <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-sharp fa-solid fa-code-compare"></i>
+            <h4>Machine Learning</h4>
+            <p>Machine learning is used in internet search engines, email filters to sort out spam,
+                 websites to make personalised recommendations,
+                 banking software to detect unusual transactions, and lots of apps on our phones</p>
+                <a href="#">Learn More</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-gear"></i>
+            <h4>Artificial Inteligence</h4>
+            <p>Artificial intelligence (AI) makes it possible for machines to learn from experience, 
+                adjust to new inputs and perform human-like tasksn</p>
+                <a href="#">Learn More</a>
+        </div>
+      </div>
+    
+    
+    
+    
+    </div>
+   
+
+
+
+ </div>
+  <div id="portfolio">
+      <div class="container">
+        
+        <h3 class="sub-tittle">My Work</h3>
+        <div class="work-list">
+          <div class="work">
+             <img src="images/explore.png.jpg" style="width:250px;height:250px" >
+          <div class="layer">
+            <i class="fa-brands fa-searchengin"></i>
+              <h4>Exploring</h4>
+              <p>Exploration involves familiarizing a researcher with a topic.
+                   Exploration satisfies the researcher's curiosity and
+                    desire for improved understanding</p>
+               <a href="#">Learn More</a>
+
+          </div>
+
+          </div>
+          <div class="work">
+            <img src="images/research.png.jfif" style="width:250px;height:250px">
+            <div class="layer">
+                <i class="fa-brands fa-researchgate"></i>
+                <h4>Research</h4>
+                <p>Research is a process of systematic inquiry that entails collection of data,
+                     documentation of critical information; and 
+                     analysis and interpretation of that data/information</p>
+               <a href="#">Learn More</a>
+                
+  
+            </div>
+
+         </div>
+
+        </div>
+      </div>
+
+
+  </div>
+ 
+     <div id="cobtact">
+     <div class="container">
+         <div class="row">
+             <div class="contact-left">
+                <h3 class="sub-tittle">Contact Info</h3>
+                <p> <i class="fa-solid fa-envelope"></i> nightcore@gmail.com</p>
+                <p> <i class="fa-solid fa-square-phone-flip"></i> 01929369511</p>
+                <div class="social-icons">
+                    <a href ="https://www.instagram.com/"> <i class="fa-brands fa-square-instagram"></i></a>
+                    <a href ="https://twitter.com/"><i class="fa-brands fa-square-twitter"></i> </a>
+                    <a href ="https://www.linkedin.com/"> <i class="fa-brands fa-linkedin"></i></a>
+                    <a href ="https://github.com/"> <i class="fa-brands fa-square-github"></i></a>
+
+                <!-- contact form portion -->
+                
+                    <form name="submit-to-google-sheet">
+                        <input type ="Text" name="Name" placeholder="Your Name" required>
+                        <input type="Email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="7" placeholder="Your Message"></textarea>
+                        <button type="Submit" class="btn btn2" >  Submit</button>
+     
+                    </form>
+                    <span id="msg"></span>
+                  
+                </div>
+                
+             </div>
+         
+         </div>
+
+     </div>
+
+     <div class="Inspirer">
+        <p> <i class="fa-solid fa-quote-left"></i> Clear all distractions.Focus on the main thing 
+             <i class="fa-solid fa-quote-right"></i> </p>  
+        
+     </div>
+     </div>
+ 
+ 
+             <!-- script -->
+ <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+       event.currentTarget.classList.add("active-link");
+       document.getElementById(tabname).classList.add("active-tab");
+   
+    }
+
+ </script>    
+<script>
+  var sidemenu =document.getElementById("sidemenu");
+
+  function openmenu(){
+      sidemenu.style.right="0";
+  }
+  function closemenu(){
+      sidemenu.style.right="-200px";
+  }
+</script>
+
+
+</body>
+</html>
